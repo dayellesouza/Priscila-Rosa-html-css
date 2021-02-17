@@ -1,0 +1,204 @@
+.banner-title > h1 {
+    color: #fff;
+    font-family: Oswald;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    line-height: 1.3;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+#toggle div {
+    width: 100%;
+    height: 3px;
+    background:#800000;
+    margin: 5px auto;
+    transition: all 0.3s;
+    backface-visibility: hidden;
+}
+
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
+    color: #fff;
+    background-color:#800000;
+    border-color: #122b40;
+}
+
+.btn-primary {
+    background: #800000 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 13px 15px;
+    text-transform: uppercase;
+    transition: background 0.3s ease-in-out 0s;
+}
+
+.section-padding {
+    padding-top: 120px;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+
+/*label procurar*/ 
+.share {
+    cursor: default;
+    display: inline-block;
+    margin: 0 0.5em;
+    padding: 0;
+    position: fixed;
+    right: 20px;
+    text-align: center;
+    top: 35px;
+    z-index: 99999;
+}
+
+.icon, .label {
+    background-color: #800000;
+    line-height: 2.4em;
+}
+
+.icon {
+    border-radius: 0;
+    cursor: pointer;
+    display: inline-block;
+    height: 2.4em;
+    margin: 0 -.5em;
+    -webkit-transition: background-color .5s ease-out, border-radius .5s .25s ease-out, margin .5s .25s ease-out;
+    transition: background-color .5s ease-out, border-radius .5s .25s ease-out, margin .5s .25s ease-out;
+    width: 2.4em;
+    color: #fff;
+}
+.facebook {
+    background-color: #31b0d5;
+}
+.twitter {
+    background-color: #00aced;
+}
+.google-plus {
+    background-color: #dd4b39;
+}
+.pinterest {
+    background-color: #cb2027;
+}
+    <!---footer--->
+
+#back-to-top {
+    bottom: 50px;
+    color: #800000;
+    cursor: pointer;
+    font-size: 17px;
+    position: fixed;
+    right: 10px;
+    text-align: center;
+}
+
+#back-to-top {
+    bottom: 50px;
+    color: #800000;
+    cursor: pointer;
+    font-size: 17px;
+    position: fixed;
+    right: 10px;
+    text-align: center;
+}
+
+.copyright a {
+    color: #800000;
+}
+
+.user-title {
+    color: #800000;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    text-transform: capitalize;
+}
+
+a, button {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menu-view li a {
+    display: inline-block;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+a:hover, a:active, a:focus {
+    color: inherit;
+    outline: none !important;
+    text-decoration: none;
+}
+
+a {
+    background-color: transparent;
+}
+
+
+#gallery-block .row > .gallery-list {
+    margin-bottom: 30px;
+}
+#gallery-block .row > .gallery-list:nth-last-child(-n+3){
+    margin-bottom: 0px;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 90%;
+    right: 0;
+    background-color: rgba(221,221,221,0.6);
+    overflow: hidden;
+    width: 0;
+    height: 90%;
+    transition: .5s ease;
+}
+
+.preloader span {
+    animation-direction: alternate;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-name: bubble-anim;
+    background: #800000;
+    border-radius: 60px;
+    display: inline-block;
+    height: 13px;
+    margin: 31px auto;
+    vertical-align: middle;
+    width: 13px;
+}
+
+@keyframes bubble-anim {
+0% {
+    background-color: #800000;
+    height: 13px;
+    transform: translateY(0px);
+    width: 13px;
+}
+100% {
+    background-color: #800000;
+    height: 30px;
+    transform: translateY(-26px);
+    width: 30px;
+}
+}
+.port-image:hover .overlay {
+    width: 100%;
+    height:100%;
+    left: 0;
+}
+
