@@ -82,18 +82,23 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     width: 2.4em;
     color: #fff;
 }
+
 .facebook {
     background-color: #31b0d5;
 }
+
 .twitter {
     background-color: #00aced;
 }
+
 .google-plus {
     background-color: #dd4b39;
 }
+
 .pinterest {
     background-color: #cb2027;
 }
+
     <!---footer--->
 
 #back-to-top {
@@ -138,6 +143,7 @@ a, button {
     padding-top: 25px;
     padding-bottom: 25px;
 }
+
 a:hover, a:active, a:focus {
     color: inherit;
     outline: none !important;
@@ -146,14 +152,6 @@ a:hover, a:active, a:focus {
 
 a {
     background-color: transparent;
-}
-
-
-#gallery-block .row > .gallery-list {
-    margin-bottom: 30px;
-}
-#gallery-block .row > .gallery-list:nth-last-child(-n+3){
-    margin-bottom: 0px;
 }
 
 .overlay {
@@ -196,6 +194,7 @@ a {
     width: 30px;
 }
 }
+
 .port-image:hover .overlay {
     width: 100%;
     height:100%;
